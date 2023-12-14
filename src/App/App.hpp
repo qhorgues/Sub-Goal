@@ -68,7 +68,7 @@ private:
     void drawBackground();
     void printSubGoal();
 
-    const std::array<Goal, 14> m_goal = {
+    const std::array<Goal, 15> m_goal = {
     {
         { .prix = 2, .str_goal = "Je montre mon setup"},
         { .prix = 6, .str_goal = "Live karaoké" },
@@ -80,8 +80,9 @@ private:
         { .prix = 90, .str_goal = "Je decouvre Shotgun King !" },
         { .prix = 100, .str_goal = "Je fais un tuto culture de tomate"},
         { .prix = 125, .str_goal = "Apero IRL avec streamer et modo"},
-        { .prix = 150, .str_goal = "Je m'inscrit à un tournoi FIDE blitz"},
-        { .prix = 175, .str_goal = "creation de casquette Shintaro"},
+        { .prix = 150, .str_goal = "Chaine TikTok \"Les comprimés\""},
+        { .prix = 175, .str_goal = "Je m'inscrit à un tournoi FIDE blitz"},
+        { .prix = 200, .str_goal = "creation de casquette Shintaro"},
         { .prix = 250, .str_goal = "Je teins ma barbe pour noel"},
         { .prix = 500, .str_goal = "Je fait un giveway du bonnet lama"}
     }};
