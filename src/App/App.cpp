@@ -55,7 +55,7 @@ void App::drawBackground()
 
 void App::printTitle()
 {
-    SDL2pp::Texture title { m_renderer, m_waltographFont.RenderText_Blended("Sub Goal Telethon :", WHITE) };
+    SDL2pp::Texture title { m_renderer, m_waltographFont.RenderText_Blended("Donations Goal Telethon :", WHITE) };
     m_renderer.Copy(title, std::nullopt, SDL2pp::Rect(150, 50, title.GetWidth(), title.GetHeight()));
     m_renderer.Copy(m_logoTelethon, std::nullopt, SDL2pp::Rect(50, 30, title.GetHeight() + 30, title.GetHeight() + 30));
 
